@@ -220,8 +220,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0
       nanoid:
-        specifier: ^4.0.2
-        version: 4.0.2
+        specifier: ^5.0.9
+        version: 5.0.9
       nanostores:
         specifier: ^0.9.3
         version: 0.9.3
@@ -374,8 +374,8 @@ importers:
         specifier: ^10.0.2
         version: 10.0.2
       nanoid:
-        specifier: ^4.0.2
-        version: 4.0.2
+        specifier: ^5.0.9
+        version: 5.0.9
       sharp:
         specifier: ^0.30.7
         version: 0.30.7
@@ -1099,8 +1099,8 @@ importers:
         specifier: ^7.2.0
         version: 7.2.0
       nanoid:
-        specifier: ^4.0.2
-        version: 4.0.2
+        specifier: ^5.0.9
+        version: 5.0.9
       umzug:
         specifier: ^3.2.1
         version: 3.2.1
@@ -1148,8 +1148,8 @@ importers:
         specifier: workspace:^
         version: link:../trpc-interface
       nanoid:
-        specifier: ^4.0.2
-        version: 4.0.2
+        specifier: ^5.0.9
+        version: 5.0.9
       slugify:
         specifier: ^1.6.6
         version: 1.6.6
@@ -1185,8 +1185,8 @@ importers:
         specifier: workspace:^
         version: link:../trpc-interface
       nanoid:
-        specifier: ^4.0.2
-        version: 4.0.2
+        specifier: ^5.0.9
+        version: 5.0.9
       zod:
         specifier: ^3.21.4
         version: 3.21.4
@@ -1249,8 +1249,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0
       nanoid:
-        specifier: ^4.0.2
-        version: 4.0.2
+        specifier: ^5.0.9
+        version: 5.0.9
       nanostores:
         specifier: ^0.9.3
         version: 0.9.3
@@ -13199,6 +13199,12 @@ packages:
   /nanoid@4.0.2:
     resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==}
     engines: {node: ^14 || ^16 || >=18}
+    hasBin: true
+    dev: false
+
+  /nanoid@5.0.9:
+    resolution: {integrity: sha512-Aooyr6MXU6HpvvWXKoVoXwKMs/KyVakWwg7xQfv5/S/RIgJMy0Ifa45H9qqYy7pTCszrHzP21Uk4PZq2HpEM8Q==}
+    engines: {node: ^18 || >=20}
     hasBin: true
     dev: false
 
